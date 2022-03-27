@@ -1,0 +1,111 @@
+body
+{
+    background-color: #59d4fa;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+header
+{
+ text-align: center;
+ color: white;
+ padding-bottom: 20px;
+
+}
+nav
+{
+    padding: 5px;
+    background-color: gray;
+    text-align: center;
+}
+nav ul li
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+    background-color: #B2B2B2;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+    border:2px Solid #59d4fa;
+    border-radius: 10px;
+}
+
+a:link 
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+  
+a:visited 
+{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+nav ul li:hover
+{
+    background-color: #ffde59;
+
+}
+main
+{
+    color: white;
+}
+
+aside
+{
+    float: right;
+}
+
+footer
+{
+    color: white;
+    text-align: center;
+    background-color: grey;
+    padding: 10px; 
+    position: relative;   
+}
+
+footer ul li
+{
+
+    list-style-type: none;
+    display: inline;
+    padding: 15px;
+    margin: 5px;
+
+}
+.homeblock
+{
+    min-height: 500px;
+    display: inline-block;
+    width: 45%;
+    margin: 10px;
+    border:2px Solid #ffde59;
+    text-align: center;
+}
+.sale
+{
+    max-height: 600px;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border:2px Solid #ffde59;
+    text-align: center;
+}
+
+.parts
+{
+    max-height: 600px;
+    display: inline-block;
+    width: 30%;
+    margin: 10px;
+    border:2px Solid #ffde59;
+    text-align: center;
+
+
+}
+
+
